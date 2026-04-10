@@ -2,7 +2,7 @@ import socket
 import tempfile
 import os
 
-SERVER_IP = "172.20.10.6"   # Change if needed
+SERVER_IP = "172.20.10.6"   
 PORT = 5000
 BUFFER_SIZE = 4096
 
@@ -40,7 +40,7 @@ def start_client():
 
         print("[PLAYING MUSIC]\n")
 
-        # Open with default Windows media player
+        
         os.startfile(temp_filename)
 
     except Exception as e:
