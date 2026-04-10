@@ -1,6 +1,6 @@
-# 🎵 CN_Jackfruit — Music Streaming App
+ CN_Jackfruit — Music Streaming App
 
-## 📌 Overview
+Overview
 
 This project implements a secure music streaming system using socket programming in Python.
 It allows multiple clients to connect to a central server, browse songs, and stream MP3s in real time.
@@ -10,15 +10,15 @@ handling using threading.
 
 ---
 
-## 🚀 Features
+ Features
 
-- 🔗 Multi-client server using TCP sockets
-- 🔐 Secure communication using SSL/TLS
-- 🧵 Concurrent client handling (multithreading)
-- 🎵 Real-time MP3 streaming
-- 🔍 Search and filter songs
-- 📊 Download progress bar
-- 🖥️ GUI-based client (Tkinter)
+- Multi-client server using TCP sockets
+- Secure communication using SSL/TLS
+- Concurrent client handling (multithreading)
+- Real-time MP3 streaming
+- Search and filter songs
+- Download progress bar
+- GUI-based client (Tkinter)
 
 ---
 
@@ -45,8 +45,7 @@ handling using threading.
     └── .gitignore
 
 ---
-
-## ⚙️ Technologies Used
+ Technologies Used
 
 - Python
 - Socket Programming
@@ -56,9 +55,9 @@ handling using threading.
 
 ---
 
-## 🔧 Setup Instructions
+ Setup Instructions
 
-### 1️⃣ Install dependencies
+Install dependencies
 
     pip install -r requirements.txt
 
